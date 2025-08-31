@@ -1,58 +1,61 @@
 *,
-        *::after,
-        *::before {
-            box-sizing: border-box;
-        }
+*::after,
+*::before {
+    box-sizing: border-box;
+}
 
-        header {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            padding: 0;
-            margin: 0;
-            font-size: .6rem;
-        }
-        body {
-            background: #1b1b1b;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+}
 
-        .box {
-            width: 100vmin;
-            height: 100vmin;
-            display: grid;
-            grid-template-columns: auto auto auto;
-        }
+body {
+    background: #1b1b1b;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-        .item {
-            width: 100px;
-            height: 100px;
-            background: #fff;
-            border: 1px solid #000;
-            border-radius: 1rem;
-            margin: auto;
-            box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
-            text-align: center;
-            line-height: 100px;
-            font-size: 4rem;
-            cursor: pointer;
-        }
+.box {
+    width: 100vmin;
+    height: 100vmin;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
 
-        .item.red {
-            background: red;
-        }
+.item {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    margin: auto;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 100px;
+    font-size: 4rem;
+    cursor: pointer;
+}
 
-        .item.blue {
-            background: blue;
-        }
+.item.red {
+    background: red;
+}
 
-        .item.move {
-            transform: scale(1.08);
-            opacity: 0.9;
-            filter: blur(5px);
-        }
+.item.blue {
+    background: blue;
+}
+
+.item.move {
+    transform: scale(1.08);
+    opacity: 0.9;
+    filter: blur(5px);
+}
